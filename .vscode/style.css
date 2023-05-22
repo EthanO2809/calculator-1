@@ -3,41 +3,48 @@ body {
 }
 
 .container {
-    align-content: center;
+    display: flex;
+    align-items: center;
     justify-content: center;
 }
 
 .pd {
-    padding: 10px;
-    border-radius: 20px;
+    padding: 2rem;
+    border-radius: 4rem;
     background-color: #000000;
-    margin-bottom: 16px;
+    
+}
+
+.txt-sml {
+    color: rgb(255, 0, 0);
+    font-size: 12px;
+    
 }
 
 .h1 {
     text-align: center;
     animation: shadow 6s infinite;
-    color: rgb(255, 255, 255);
+    color: rgb(255, 0, 0);
     font-family: 'Boldka Script', sans-serif;
-    letter-spacing: 4px;
+    letter-spacing: .5rem;
     font-size: xx-large
 }
 
 @import url('https://fonts.cdnfonts.com/css/boldka-script');
 
 @keyframes shadow {
-    0%{text-shadow: #000000 0 0 20px;}
-    25%{text-shadow: #ff0000 0 0 20px;}
-    50%{text-shadow: #ffffff 0 0 20px;}
-    75%{text-shadow: #b2ac00 0 0 20px;}
-    100%{text-shadow: #1eff00 0 0 20px;}
+    0%{text-shadow: #000000 0 0 15px;}
+    25%{text-shadow: #ff0000 0 0 15px;}
+    50%{text-shadow: #ffffff 0 0 15px;}
+    75%{text-shadow: #b2ac00 0 0 15px;}
+    100%{text-shadow: #1eff00 0 0 15px;}
 }
 
 .calculator {
     display: grid;
     grid-template-columns: repeat(4, 2rem);
-    gap: .75rem;
-    width: 250px;
+    gap: .85rem;
+    width: 16rem;
     border: 1px solid #000000;
     border-radius: 1rem;
     background-color: rgb(0, 0, 0);
@@ -46,8 +53,8 @@ body {
 }
 
 .wd{
-    height: 32px;
-    width: 60px;
+    height: 1rem;
+    width: 2rem;
 }
 
 .screen {
@@ -56,10 +63,10 @@ body {
     font-size: 2rem;
     height: 4rem;
     color: rgb(0, 0, 0);
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(183, 183, 183);
     text-align: end;
     padding: .5rem;
-    margin-top: 10px;
+    margin-top: .8rem;
 }
 
 .rr {
