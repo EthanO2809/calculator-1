@@ -1,5 +1,5 @@
 body {
-    background-color: blueviolet;
+    background-color: rgb(0, 255, 170);
 }
 
 .container {
@@ -12,21 +12,22 @@ body {
     padding: 2rem;
     border-radius: 4rem;
     background-color: #000000;
-    
 }
 
+@import url('https://fonts.cdnfonts.com/css/caramelia');
+
 .txt-sml {
-    color: rgb(255, 0, 0);
-    font-size: 12px;
+    color: rgb(55, 0, 255);
+    font-size: .68rem;
+    font-family: 'Caramelia', sans-serif;
 }
 
 .h1 {
     text-align: center;
     animation: shadow 6s infinite;
-    color: rgb(255, 0, 0);
-    font-family: 'Boldka Script', sans-serif;
-    letter-spacing: .5rem;
-    font-size: xx-large
+    color: rgb(64, 0, 255);
+    font-family: 'Caramelia', sans-serif;
+    font-size: 3rem
 }
 
 @import url('https://fonts.cdnfonts.com/css/boldka-script');
@@ -66,7 +67,10 @@ body {
     text-align: end;
     padding: .5rem;
     margin-top: .8rem;
+    font-family: 'KG Two is Better Than One', sans-serif;
 }
+
+@import url('https://fonts.cdnfonts.com/css/kg-two-is-better-than-one');
 
 .rr {
     border-radius: 80px;
@@ -80,6 +84,6 @@ body {
     border-radius: 80px;
     width: 40px;
     height: 32px;
-    background-color: #ff0000;
+    background-color: #1900ff;
     color: white;
 }
